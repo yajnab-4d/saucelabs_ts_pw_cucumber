@@ -1,0 +1,38 @@
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Node.js dependencies
+node_modules/
+
+# Playwright-specific files
+*.snap
+*.png
+*.jpeg
+*.gif
+*.mp4
+*.webm
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
